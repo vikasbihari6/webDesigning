@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 javascript</title>
+    <style>
+        p{
+            color: blue;
+        }
+        h1{
+            text-align: center;
+        }
+        img{
+            height: 500px;
+            width: 850px;
+        }
+        body{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is the heading</h1>
+    <p id="p1">this is the first para</p>
+    <button type="button" id="b1" onclick="change()">change color</button><br><br><br>
+    <img src="https://images.unsplash.com/photo-1565883024419-08511e323216?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXklMjBsb3ZlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" id="img" alt=""><br><br>
+    <button type="button" id="b2" onclick="changeimage()">change image</button>
+    <script>
+        function change()
+        {
+            document.getElementById("p1").style.color="red";
+        }
+        function changeimage()
+        {
+            document.getElementById("img").src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDPaJNMNQYycZ3YizjwaPXYSQOnAHK8ChCvw&usqp=CAU";
+        }
+    </script>
+</body>
+</html>

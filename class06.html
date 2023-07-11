@@ -1,0 +1,48 @@
+<html>
+    <style>
+        body{background-repeat: no-repeat;background-attachment: fixed;background-size: cover;}
+        li {display: inline;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid red;
+            transition: 0.6s ease;
+           }
+           .demo{
+               display: inline;
+               margin: 50px;
+               width: 50px;;
+               height: 50px;
+               background-color: yellowgreen;
+               transition: width 2s,height 2s,transform 2s,background-color 2s ease;
+           }
+           div.demo:hover{height: 200px;width: 200px;background-color: cyan;transform: rotate(45deg);}
+           img{
+               transition: width 2s,height 2s;
+           }
+           img:hover{ width: 200px;height: 200px;}
+           a {
+               color: black;
+               font-size: 200%;
+           }
+           li:hover{background-color: white; color: yellow;}
+    </style>
+    <body style="background-image: url(https://www.pixelstalk.net/wp-content/uploads/2015/05/Plane-on-the-beach.jpg);">
+        <img src="https://gothammag.com/get/files/image/galleries/dreamliner-coaches.jpg"style="float: left;width: 250px;height: 200px;">
+        <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/09/2e/0b/e1.jpg"style="float:right;width:250;height: 200px;">
+        <h1 style="text-align: center;">TOUR AND TRAVELL</h1><br><br>
+        <div>
+           <center> <ul>
+                <li> <a href="#">  home  </a></li>
+                <li> <a href="#">  services </a></li>
+                <li> <a href="#">  gallery </a></li>
+                <li> <a href="#"> about </a></li>
+            </ul> </center>
+        </div><br><br><br>
+        <div class="demo">
+            <img src="https://images.unsplash.com/photo-1604537529428-15bcbeecfe4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" height="50" width="50" >
+        </div>
+        <div class="demo">
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80" height="150" width="150">
+        </div>
+    </body>        
+</html>
